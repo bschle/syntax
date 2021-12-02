@@ -20,7 +20,6 @@ public class Aufgabe14 {
             System.out.print("\n");
 
             Arrays.fill(nadeln, " ");
-
         }
     }
 }
