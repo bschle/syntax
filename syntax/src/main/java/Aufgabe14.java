@@ -15,7 +15,7 @@ public class Aufgabe14 {
             nadeln[positionr] = "*";
             positionl -= 1;
             positionr += 1;
-            System.out.println("\n");
+            System.out.print("\n");
         }
     }
 }

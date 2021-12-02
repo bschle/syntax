@@ -13,12 +13,19 @@ public class Aufgabe10 {
                 break;
             case "/":
                 resultat = zahl1 / zahl2;
+                break;
             case "-":
                 resultat = zahl1 - zahl2;
+                break;
             case "+":
                 resultat = zahl1 + zahl2;
+                break;
             case "%":
                 resultat = zahl1 % zahl2;
+                break;
+            default:
+                resultat = 0;
+
 
         }
 
