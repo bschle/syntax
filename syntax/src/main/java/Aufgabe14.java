@@ -3,23 +3,23 @@ import java.util.Arrays;
 public class Aufgabe14 {
     public static void main(String[] args) {
 
-        String[] nadeln = new String[11];
-        Arrays.fill(nadeln, " ");
+        String[] row = new String[88];
+        Arrays.fill(row, " ");
         String star = "*";
-        int x = 0;
+        int gap = 0;
 
-        for (int i = 0; i < 11 / 2; i++) {
+        for (int i = 0; i < row.length / 2; i++) {
 
-            nadeln[nadeln.length / 2 - x] = star;
-            for (String number : nadeln) {
-                System.out.print(number);
+            row[row.length / 2 - gap] = star;
+            for (String Christmastree : row) {
+                System.out.print(Christmastree);
             }
 
-            x += 1;
+            gap += 1;
             star += "**";
             System.out.print("\n");
 
-            Arrays.fill(nadeln, " ");
+            Arrays.fill(row, " ");
         }
     }
 }
