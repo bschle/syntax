@@ -1,7 +1,7 @@
 public class SomeClass {
-    private static void main(String[] args) {
+    public static void main(String[] args) {
         OtherClass.say();
-        OtherClass.text = "Hallo";
+        OtherClass.setText("Hallo");
         OtherClass.say();
     }
 }
