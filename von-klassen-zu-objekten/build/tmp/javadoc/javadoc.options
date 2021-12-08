@@ -1,0 +1,10 @@
+-classpath 'C:\\DEV\\Java\\ae\\von-klassen-zu-objekten\\build\\classes\\java\\main;C:\\DEV\\Java\\ae\\von-klassen-zu-objekten\\build\\resources\\main'
+-d 'C:\\DEV\\Java\\ae\\von-klassen-zu-objekten\\build\\docs\\javadoc'
+-doctitle 'von-klassen-zu-objekten 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'von-klassen-zu-objekten 1.0-SNAPSHOT API'
+'C:\\DEV\\Java\\ae\\von-klassen-zu-objekten\\src\\main\\java\\geometry\\Line.java'
+'C:\\DEV\\Java\\ae\\von-klassen-zu-objekten\\src\\main\\java\\geometry\\Point.java'
+'C:\\DEV\\Java\\ae\\von-klassen-zu-objekten\\src\\main\\java\\geometry\\PointApp.java'
+'C:\\DEV\\Java\\ae\\von-klassen-zu-objekten\\src\\main\\java\\LineApp.java'
