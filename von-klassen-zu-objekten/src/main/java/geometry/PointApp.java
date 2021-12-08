@@ -1,6 +1,5 @@
 package geometry;
 
-// Default Package
 public class PointApp {
 
     public void main(String[] args) {
