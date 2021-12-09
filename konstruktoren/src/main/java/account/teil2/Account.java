@@ -2,16 +2,18 @@ package account.teil2;
 
 
 public class Account {
+    private Person onwer;
+
     public Account(Person owner, Person vorname) {
-        Person.owner = owner;
+        this.onwer = owner;
     }
 
 
-    private static double amount = 0;
+    static double amount = 0;
     private double zinssatz = 0.01;
     public static String waehrung = "CHF";
 
-    public double getAmount() {
+    public static double getAmount() {
         return amount;
     }
 
@@ -40,9 +42,9 @@ public class Account {
 
 
     public static Person[] createAccountsForPeople(Person[] people) {
-        Person[] account = new Person[(int) amount];
+        Person[] account = new Person[people.length];
         for (int i = 0; i < people.length; i++) {
-           account = new Person[]{Person.personen[i]};
+            account = new Person[]{App.people[i]};
         }
         return account;
     }

@@ -10,11 +10,10 @@ public class RandomHelper {
         return min + (max - min) * random.nextDouble();
     }
 
-    public static int getMax(int[] Account) {
-
-        int max = Account[0];
-        for (int i = 0; i < Account.length; i++) {
-            if (Account[i] > max) {
+    public static int getMax() {
+        Person max = App.people[0];
+        for (int i = 0; i < App.people.length; i++) {
+            if (App.people[i] > max) {
                 max = Account[i];
             }
         }

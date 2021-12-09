@@ -27,9 +27,9 @@ public class Account {
         return einzahlung;
     }
 
-    public double withdraw(double abhebung) {
-        betrag = betrag - abhebung;
-        return abhebung;
+    public double withdraw(double takeOff) {
+        betrag = betrag - takeOff;
+        return takeOff;
     }
 
     public void setZinssatz(double ZinsSatz) {

@@ -4,27 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12aef465-2e00-4892-ace2-c484674403e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/account/teil2/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/account/teil2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/account/teil2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/account/teil2/RandomHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../von-klassen-zu-objekten/src/main/java/account/teil1/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../von-klassen-zu-objekten/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../von-klassen-zu-objekten/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+    <list default="true" id="12aef465-2e00-4892-ace2-c484674403e5" name="Changes" comment="Auftrag Konstruktoren">
+      <change afterPath="$PROJECT_DIR$/../enums/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/src/main/java/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/src/main/java/AlienApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/src/main/java/AliensWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/src/main/java/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/src/main/java/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/src/main/java/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enums/src/main/java/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quiz/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quiz/QuestionGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/teil2/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/teil2/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/teil2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/teil2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/teil2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/teil2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/account/teil2/RandomHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/teil2/RandomHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../von-klassen-zu-objekten/src/main/java/account/teil1/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../von-klassen-zu-objekten/src/main/java/account/teil1/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../von-klassen-zu-objekten/src/main/java/account/teil1/RandomHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../von-klassen-zu-objekten/src/main/java/account/teil1/RandomHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +82,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="quiz" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="account.teil2" />
     </key>
@@ -108,8 +117,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639037703929</updated>
-      <workItem from="1639037705971" duration="7606000" />
+      <workItem from="1639037705971" duration="9349000" />
+      <workItem from="1639050392364" duration="2651000" />
+      <workItem from="1639053871939" duration="3882000" />
     </task>
+    <task id="LOCAL-00001" summary="Auftrag Konstruktoren">
+      <created>1639046673147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639046673147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Auftrag Konstruktoren" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auftrag Konstruktoren" />
   </component>
 </project>

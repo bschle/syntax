@@ -2,15 +2,13 @@ package account.teil2;
 
 public class Person {
     public static Person owner;
-    public static Person[] personen;
+    public static Person[] people;
 
     private static Person Vorname;
     private static Person Nachname;
 
     public static void main(String[] args) {
-        Person people = new Person();
 
-        personen = new Person[]{getNachname(), getVorname()};
     }
 
     public void setNachname(Person nachname) {
