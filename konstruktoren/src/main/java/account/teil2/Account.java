@@ -1,16 +1,18 @@
-package account.teil1;
+package account.teil2;
 
-
-import java.util.Random;
 
 public class Account {
+    public Account(Person owner, Person vorname) {
+        Person.owner = owner;
+    }
 
-    private double betrag = 0;
+
+    private static double amount = 0;
     private double zinssatz = 0.01;
     public static String waehrung = "CHF";
 
-    public double getBetrag() {
-        return betrag;
+    public double getAmount() {
+        return amount;
     }
 
     public double getZinsSatz() {
@@ -18,17 +20,17 @@ public class Account {
     }
 
     public double getZins() {
-        double zinsbetrag = betrag * zinssatz;
+        double zinsbetrag = amount * zinssatz;
         return zinsbetrag;
     }
 
     public double deposit(double einzahlung) {
-        betrag = einzahlung + betrag;
+        amount = einzahlung + amount;
         return einzahlung;
     }
 
     public double withdraw(double abhebung) {
-        betrag = betrag - abhebung;
+        amount = amount - abhebung;
         return abhebung;
     }
 
@@ -36,14 +38,15 @@ public class Account {
         zinssatz = ZinsSatz;
     }
 
-    public static Account[] createAccounts(int numberOfAccountsToCreate) {
-        Account[] accounts = new Account[numberOfAccountsToCreate];
-        for (int i = 0; i < numberOfAccountsToCreate; i++) {
-            Account account = new Account();
-            accounts[i] = account;
+
+    public static Person[] createAccountsForPeople(Person[] people) {
+        Person[] account = new Person[(int) amount];
+        for (int i = 0; i < people.length; i++) {
+           account = new Person[]{Person.personen[i]};
         }
-        return accounts;
+        return account;
     }
+
 
     public static void depositAndWithdrawRandomAmount(Account[] accounts) {
         for (Account account : accounts) {
