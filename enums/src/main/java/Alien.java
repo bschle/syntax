@@ -8,7 +8,6 @@ public class Alien {
     }
 
 
-
     public void printGender() {
         switch (gender) {
             case FEMALE:
