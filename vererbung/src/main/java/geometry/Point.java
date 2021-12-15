@@ -16,4 +16,16 @@ public class Point {
     public int getY() {
         return y;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        String x1 = Integer.toString(getX());
+        String y1 = Integer.toString(getY());
+        return x1.equals(y1);
+    }
+
 }
+
+
+
+
