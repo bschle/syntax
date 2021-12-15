@@ -59,12 +59,10 @@ public class AliensWork {
                 }
                 break;
             default:
-                new IllegalAccessException("ERROR");
+                throw new IllegalStateException("Unexpected value: " + DateUtil.getCurrentDayOfWeek());
         }
 
     }
-
-
 
 
     public static java.time.DayOfWeek getFreeDay() {
@@ -72,3 +70,4 @@ public class AliensWork {
     }
 
 }
+
