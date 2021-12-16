@@ -1,14 +1,27 @@
 package geometry;
 
-public class BoundingBox extends Rectangle{
+public class BoundingBox extends Rectangle {
 
     private Point topLeft;
-    protected BoundingBox(Point topLeft, int width, int height) {
+
+    public BoundingBox(Point topLeft, int width, int height) {
         super(topLeft, width, height);
         this.topLeft = topLeft;
     }
 
     public Point getTopLeft() {
+        return topLeft;
+    }
+
+    public Point getTopRight() {
+        return topLeft;
+    }
+
+    public Point getBottomLeft() {
+        return topLeft;
+    }
+
+    public Point getBottomRight() {
         return topLeft;
     }
 }

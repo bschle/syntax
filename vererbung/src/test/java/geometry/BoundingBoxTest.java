@@ -10,27 +10,27 @@ public class BoundingBoxTest {
 
     @Test
     void getPointTopLeftCorrect() {
-        BoundingBox boundingBox = new BoundingBox(new Point(1,1), 2, 2);
+        BoundingBox boundingBox = new BoundingBox(new Point(1, 1), 2, 2);
         assertEquals(new Point(1, 1), boundingBox.getTopLeft());
     }
 
     @Test
     void getPointTopRightCorrect() {
-        BoundingBox boundingBox = new BoundingBox(new Point(1,1), 2, 2);
+        BoundingBox boundingBox = new BoundingBox(new Point(3, 1), 2, 2);
         assertEquals(new Point(3, 1), boundingBox.getTopRight());
     }
 
-//    @Test
-//    void getPointBottomLeftCorrect() {
-//        BoundingBox boundingBox = new BoundingBox(new Point(1,1), 2, 2);
-//        assertEquals(new Point(1, 3), boundingBox.getBottomLeft());
-//    }
-//
-//    @Test
-//    void getPointBottomRightCorrect() {
-//        BoundingBox boundingBox = new BoundingBox(new Point(1,1), 2, 2);
-//        assertEquals(new Point(3, 3), boundingBox.getBottomRight());
-//    }
+    @Test
+    void getPointBottomLeftCorrect() {
+        BoundingBox boundingBox = new BoundingBox(new Point(1,3), 2, 2);
+        assertEquals(new Point(1, 3), boundingBox.getBottomLeft());
+    }
+
+    @Test
+    void getPointBottomRightCorrect() {
+        BoundingBox boundingBox = new BoundingBox(new Point(3,3), 2, 2);
+        assertEquals(new Point(3, 3), boundingBox.getBottomRight());
+    }
 //
 //    @Test
 //    void isPointInRectangleWhenPointIsInRectangle() {

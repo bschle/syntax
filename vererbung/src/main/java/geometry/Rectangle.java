@@ -6,7 +6,7 @@ public class Rectangle extends Shape {
     private Point position;
     private Color fill;
 
-    public Rectangle(Point topLeft, int width, int height) {
+    protected Rectangle(Point topLeft, int width, int height) {
         this.position = topLeft;
         this.width = width;
         this.height = height;
